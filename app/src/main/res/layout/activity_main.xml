@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+        android:gravity="center"
+        android:background="#3fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/purple_500"
+            android:gravity="center"
+            android:text="TOURIT"
+            android:textColor="#EFEFEC" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Phone Number"
+            android:textColorHint="#D6E8EA"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:textColorHint="#D6E8EA"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hide password"
+            android:textColor="#FFFBF8"
+            android:hint="#FFFBF8"
+            android:layout_gravity="left"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:buttonTint="#fffbf8"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="sign in"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boxcolor"
+            android:textColor="#fffbf8"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Forget Password"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boxcolor"
+            android:textColor="#fffbf8"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
